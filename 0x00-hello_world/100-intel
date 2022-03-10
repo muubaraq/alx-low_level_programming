@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S -Wall -Werror -Wextra -pedantic -std=gnu89 $CFILE && c=$(echo $CFILE | c -c1
+gcc -S -masm=intel $CFILE
