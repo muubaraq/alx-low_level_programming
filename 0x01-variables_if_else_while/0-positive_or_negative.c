@@ -7,7 +7,6 @@
 
 
 /**
- *
 * main - generates random number and displays whether
 *
 * number is positive, zero, or negative
@@ -19,7 +18,6 @@
 int main(void)
 
 {
-
 	int n;
 
 	srand(time(0));
