@@ -1,18 +1,38 @@
 #include <stdio.h>
 
-/**
- * main- prints out the alphabet in lowercase
- * Return: 0
- */
-int main(void)
-{
-char a = 'a';
 
-while (a <= 'z')
+
+/**
+ * main - print the letters of the alphabet
+ *
+ * Description: print the letters of the alphabet
+ *
+ * Return: Always 0 (Success)
+ */
+
+
+
+int main(void)
+
 {
- putchar(a);
- a++;
-}
-putchar('\n');
-return (0);
+	int i = 97;
+
+
+
+	while (i < 123)
+
+	{
+
+		putchar(i);
+
+		i++;
+
+	}
+
+	putchar(10);
+
+
+
+	return (0);
+
 }
