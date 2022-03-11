@@ -7,7 +7,6 @@
 
 
 /**
-
  * main - print last digit in random number
  *
  * Description: print last digit in random number
@@ -20,7 +19,6 @@
 int main(void)
 
 {
-
 	int n, last;
 
 
