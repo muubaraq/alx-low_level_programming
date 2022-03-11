@@ -1,23 +1,29 @@
 #include <stdio.h>
 
 /**
- * main - prints out all the numbers under 10 with a ,
- * Return: 0
+ * main - print single digit numbers
+ * Description: print single digit numbers with commas
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-int m;
+	int i;
 
-for (m = 48; m < 58; m++)
-{
-  putchar(m);
-  
-if (m != 57)
-{
-  putchar(',');
-  putchar(' ');
-}
-}
-putchar('\n');
-return (0);
+	i = 48;
+
+	while (i < 58)
+	{
+		putchar(i);
+		if (i != 57)
+		{
+			putchar(44);
+			putchar(32);
+		}
+		i++;
+	}
+
+	putchar(10);
+
+	return (0);
 }

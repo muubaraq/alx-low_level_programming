@@ -1,36 +1,38 @@
 #include <stdio.h>
 
 /**
- * main - prints out all the possible numbers between 00 and 99
- * without printing same digits
- * Return: 0
+ * main - print double digit combos
+ * Description: print double digit combos
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-int m, u;
+	int i, j;
 
-for (m = 48; m < 58; m++)
-{
-for (u = m; u < 58; u++)
-{
-  if (m == u)
-{
-  continue;
-}
-  putchar(m);
-  putchar(u);
+	i = 48;
+	j = 48;
 
-if (m == 56 && u == 57)
-{
-break;
-}
-else
-{
-  putchar(',');
-  putchar(' ');
-}
-}
-}
-putchar('\n');
-return (0);
+	while (i < 58)
+	{
+		j = i + 1;
+		while (j < 58)
+		{
+			putchar(i);
+			putchar(j);
+
+			if (i < 56 || j < 57)
+			{
+				putchar(44);
+				putchar(32);
+			}
+			j++;
+		}
+
+		i++;
+	}
+
+	putchar(10);
+
+	return (0);
 }

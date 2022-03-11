@@ -1,15 +1,24 @@
 #include <stdio.h>
 
 /**
- * main - prints base ten numbers
- * Return: 0
+ * main - print single digit numbers
+ * Description: print single digit numbers
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-int m;
-for (m = 0; m < 10; m++)
-  printf("%i", i);
-  printf("\n");
-  
-return (0);
+	int i;
+
+	i = 48;
+
+	while (i < 58)
+	{
+		putchar(i);
+		i++;
+	}
+
+	putchar(10);
+
+	return (0);
 }

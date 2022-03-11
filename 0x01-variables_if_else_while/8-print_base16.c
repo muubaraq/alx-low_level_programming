@@ -1,19 +1,24 @@
 #include <stdio.h>
 
 /**
- * main - prints out all the numbers of base 16 in lowercase
- * Return: 0
+ * main - print the letters of the alphabet
+ * Description: print the letters of the alphabet except e, q
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-int i;
+	int i = 0;
 
-for (i = 48; i < 58; i++)
-  putchar(i);
+	while (i < 48)
+	{
+		if (i < 10)
+			putchar(i + '0');
+		else if (i > 41)
+			putchar(i - 10 + 'A');
+		i++;
+	}
+	putchar(10);
 
-for (i = 'a'; i <= 'f'; i++)
-  putchar(i);
-
-  putchar('\n');
-return (0);
+	return (0);
 }

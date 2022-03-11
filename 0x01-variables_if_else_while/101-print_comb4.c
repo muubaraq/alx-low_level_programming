@@ -1,38 +1,45 @@
 #include <stdio.h>
 
 /**
- * main - prints out all possible combos of 3 digits
- * Return: 0
+ * main - print triple combos
+ * Description: print triple digit combos
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-int i, j, k;
+	int i, j, k;
 
-for (i = 48; i < 58; i++)
-{
-for (j = i; j < 58; j++)
-{
-for (k = j; k < 58; k++)
-{
-if (i == j || j == k || i == k)
-{
-continue;
-}
-putchar(i);
-putchar(j);
-putchar(k);
-if (i == 55 && j == 56 && k == 57)
-{
-break;
-}
-else
-{
-putchar(',');
-putchar(' ');
-}
-}
-}
-}
-putchar('\n');
-return (0);
+	i = 48;
+	j = 48;
+	k = 48;
+
+	while (i < 58)
+	{
+		j = i + 1;
+		while (j < 58)
+		{
+			k = j + 1;
+			while (k < 58)
+			{
+				putchar(i);
+				putchar(j);
+				putchar(k);
+				if (i < 55 || j < 56 || k < 57)
+				{
+					putchar(44);
+					putchar(32);
+				}
+				k++;
+			}
+
+			j++;
+		}
+
+		i++;
+	}
+
+	putchar(10);
+
+	return (0);
 }

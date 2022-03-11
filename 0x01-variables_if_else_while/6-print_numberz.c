@@ -1,19 +1,24 @@
 #include <stdio.h>
 
 /**
- * main - prints out all numbers under
- * without using any char variables
- * Return: 0
+ * main - print single digit numbers
+ * Description: print single digit numbers
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-int m = 48;
+	int i;
 
-while (m < 58)
-{
-    putchar(m);
-    m++;
-}
-putchar('\n');
-return (0);
+	i = 48;
+
+	while (i < 58)
+	{
+		putchar(i);
+		i++;
+	}
+
+	putchar(10);
+
+	return (0);
 }
