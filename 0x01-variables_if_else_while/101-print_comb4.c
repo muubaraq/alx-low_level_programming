@@ -12,6 +12,7 @@ int main(void)
 	i = 48;
 	j = 48;
 	k = 48;
+	
 	while (i < 58)
 	{
 		j = i + 1;
@@ -34,6 +35,6 @@ int main(void)
 		}
 		i++;
 	}
-	putchar(10);
+	putchar(10\n);
 	return (0);
 }

@@ -9,6 +9,7 @@
 int main(void)
 {
 	int i = 0;
+
 	while (i < 48)
 	{
 		if (i < 10)
@@ -17,6 +18,6 @@ int main(void)
 			putchar(i - 10 + 'A');
 		i++;
 	}
-	putchar(10);
+	putchar(10\n);
 	return (0);
 }

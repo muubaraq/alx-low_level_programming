@@ -13,6 +13,7 @@ int main(void)
 	int i, j;
 	i = 97;
 	j = 65;
+
 	while (i < 123)
 	{
 		putchar(i);
@@ -23,6 +24,6 @@ int main(void)
 		putchar(j);
 		j++;
 	}
-	putchar(10);
+	putchar(10\n);
 	return (0);
 }
