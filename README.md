@@ -64,7 +64,7 @@ I will definetly definitely keep practicing. With more practice comes more growt
 
 - [C programming Language](https://www.youtube.com/watch?v=de2Hsvxaf8M) - This helped me a lot.
 
-- [Everything you need to know about c] (https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/misc/2021/1/d801279f75de6a982a55d752dfd3632909f720f0.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20220317%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220317T201002Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=788025e3ee3cfa13d47e134ab8de212201e5583f5305920840423649753445d4) - This too
+- [Everything you need to know about c](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/misc/2021/1/d801279f75de6a982a55d752dfd3632909f720f0.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20220317%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220317T201002Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=788025e3ee3cfa13d47e134ab8de212201e5583f5305920840423649753445d4) - This too
 
 
 ## Author
