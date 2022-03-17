@@ -47,7 +47,6 @@ Started with the reading of C programming language, watching youtube videos and 
 
 At first, i thought it would be a walk in the park when i first saw the project and tasks. C is quite complicated and easy at the same time i must confess. Having to get to understand "the concept" is something i need to read more on. Coding is something you have to practice everyday, even if it is just for 10 mins a day. You leave it, you forget it!. Patience is also important when it comes to getting the hang of coding. Take your time, no need to rush.
 
-To see how you can add code snippets, see below:
 
 
 ```c
