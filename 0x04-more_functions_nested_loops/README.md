@@ -82,7 +82,7 @@ Use the character # to print the triangle
 
 ## 11. The problem of distinguishing prime numbers from composite numbers and of resolving the latter into their prime factors is known to be one of the most important and useful in arithmetic
 
-#advanced
+# advanced
 The prime factors of 1231952 are 2, 2, 2, 2, 37 and 2081.
 
 Write a program that finds and prints the largest prime factor of the number 612852475143, followed by a new line.
@@ -91,7 +91,7 @@ You are allowed to use the standard library
 Your program will be compiled with this command: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-prime_factor.c -o 100-prime_factor -lm
 
 ## 12. Numbers have life; they're not just symbols on paper
-#advanced
+# advanced
 Write a function that prints an integer.
 
 Prototype: void print_number(int n);
