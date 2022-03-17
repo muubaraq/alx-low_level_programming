@@ -1,4 +1,6 @@
-#0x01. C - Variables, if, else, while ##Description This project builds upon basic programming and usage of the Arithemtic operators, Control structures, data types, etc.
+# 0x01. C - Variables, if, else, while 
+
+## Description This project builds upon basic programming and usage of the Arithemtic operators, Control structures, data types, etc.
 
 Functions, operators, data types etc used in this project include: if, if ... else statements, char, int, unsigned int, while loop, and printf
 
