@@ -22,7 +22,7 @@
 This repo contains the basics of the C programming language
 
 ## Hello- world
-Welcomes you the wolrd of C programming
+Welcomes you the world of C programming
 
 ## Variables, if else..
 How to add variables, if else statements, and for and while loops
