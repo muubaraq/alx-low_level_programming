@@ -4,8 +4,8 @@
 
 ## Table of contents
 
-- [overview]
-- [Hello-world]
+  - [overview]
+  - [Hello-world]
   - [variables, if..else, loop]
   - [Functions, nested loops]
   - [debugging]
@@ -14,7 +14,7 @@
   - [What I learned]
   - [Continued development]
   - [Useful resources](#useful-resources)
-- [Author](#author)
+  - [Author](#author)
 
 
 
