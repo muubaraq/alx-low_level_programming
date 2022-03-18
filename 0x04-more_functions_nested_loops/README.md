@@ -80,7 +80,8 @@ Where size is the size of the triangle
 If size is 0 or less, the function should print only a new line
 Use the character # to print the triangle
 
-## 11. The problem of distinguishing prime numbers from composite numbers and of resolving the latter into their prime factors is known to be one of the most important and useful in arithmetic
+## 11. 
+The problem of distinguishing prime numbers from composite numbers and of resolving the latter into their prime factors is known to be one of the most important and useful in arithmetic
 
 # advanced
 The prime factors of 1231952 are 2, 2, 2, 2, 37 and 2081.
